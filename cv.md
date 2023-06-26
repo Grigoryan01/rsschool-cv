@@ -32,3 +32,10 @@ let b=7;
      return a+b;
   }
 ```
+
+
+
+## Languages
+ * Russian - Native
+* Armenian-Native
+* English-  Intermediate
