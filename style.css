@@ -1,0 +1,11 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+.first{
+    width: 90%;
+    height: auto;
+    padding: 10px;
+    background-color: blue;
+    margin: 20px auto;
+}
