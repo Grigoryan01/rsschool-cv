@@ -1,4 +1,4 @@
 # rsschool-cv
 
 
-https://Grigoryan01.github.io/rsschool-cv/cv
+https://grigoryan01.github.io/rsschool-cv/cv/cv.html
