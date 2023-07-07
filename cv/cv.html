@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link href="css/style.css" type="text/css" rel="stylesheet">
+        <link href="images/approved.ico" type="image/x-icon" rel="icon">
+        <title>CV</title>
+    </head>
+    <body>
+
+        <div class="content">
+        <header class="header">
+            <div class="heading">
+                <h1 class="title">Grigoryan Elmira</h1>
+                <img src="images/avatar.jpg" alt="avatar" class="avatar">
+            </div>
+                <div class="about">
+                    <h2 class="about__title">About</h2>
+                    <p class="about__text">I am an enthusiastic, self-motivated, organized, reliable, responsible and hard working person. I am a team worker and adaptable to all challenging situations. I am able to work well both in a team environment as well as using own initiative.</p>
+                </div>
+        </header>
+
+
+        <main>
+            <section class="education">
+                <div class="edu__container">
+                    <h2 class="edu__title">Education</h2>
+                    <ol class="edu__list">
+                        <li class="list__item">2006-2013-Primary School - N34 Stepan Lisician school</li>
+                        <li class="list__item">2013-2017-High School- N2 College</li>
+                        <li class="list__item">2017-2021(bachelor)-Yerevan State University-The Faculty of Informatics and Applied Mathematics (IAM)</li>
+                        <li class="list__item">2021-2023(master's program)-Yerevan State University-The Faculty of Informatics and Applied Mathematics (IAM)</li>
+                    </ol>
+                </div>
+            </section>
+
+
+            <section class="contacts">
+                <h2 class="contacts__title">Personal details</h2>
+                <div class="row">
+                    <img src="images/woman.png" alt="User" class="row__img" style="width:10%;">
+                    <h4 class="row__title">Elmira Grigoryan</h4>
+                </div>
+
+
+                <div class="row">
+                    <img src="images/placeholder.png" alt="Address" class="row__img" style="width:10%;">
+                    <h4 class="row__title">Armenia, Yerevan</h4>
+                </div>
+
+                <div class="row">
+                    <img src="images/phone-call.png" alt="Phone" class="row__img" style="width:10%;">
+                    <h4 class="row__title">+374 94-99-10-21</h4>
+                </div>
+
+                <div class="row">
+                    <img src="images/gmail.png" alt="Email" class="row__img" style="width:10%;">
+                    <h4 class="row__title">elmiragrigoryan1001@gmail.com</h4>
+                </div>
+            </section>
+
+            <section class="code">
+                <div class="code_example">
+                    <h2 class="code__title">Code Example</h2>
+                    <h3 class="code__subtitle">"Whose bicycle?" KATA from CODEWARS:</h3>
+                    <p class="code__text"> DESCRIPTION: I am the father of three wonderful sons. before the beginning of the school year, I promised them that I would buy a bicycle for someone who would bring the best marks at the end of the school year. it’s time to keep promises and I count on you.You have 3 input objects(school diaries) with school subjects and marks (1-10).</p>
+            <pre> <code class="coding">
+            function whoseBicycle(diary1, diary2, diary3) {
+        
+            const total1 = Object.values(diary1).reduce((total, currentValue) => total + currentValue);
+            const total2 = Object.values(diary2).reduce((total, currentValue) => total + currentValue);
+            const total3 = Object.values(diary3).reduce((total, currentValue) => total + currentValue);
+                        
+                if (total1 > total2 && total1 > total3) {
+                    return 'I need to buy a bicycle for my first son.';
+                } 
+                else if (total2 >= total1 && total2 > total3) {
+                    return 'I need to buy a bicycle for my second son.';
+                } 
+                else if (total3 >= total1 && total3 >= total2) {
+                    return 'I need to buy a bicycle for my third son.';
+                }
+                        }
+                    </code>
+                </pre>
+                    
+                </div>
+            </section>
+
+
+            <section class="skills">
+                <div class="skills__container">
+                    <h2 class="skills__container__title">Skills</h2>
+                    <nav>
+                        <ol class="skills__menu">
+                            <li class="skills_menu__item"><img src="images/html.png" alt="html5" style="width:20px"> HTML5</li>
+                            <li class="skills_menu__item"><img src="images/css-3.png" alt="css3" style="width:20px"> CSS3</li>
+                            <li class="skills_menu__item"><img src="images/sass.png" alt="sass" style="width:20px"> SASS/SCSS</li>
+                            <li class="skills_menu__item"><img src="images/bootstrap.png" alt="bootstrap" style="width:20px"> Bootstrap</li>
+                            <li class="skills_menu__item"><img src="images/js.png" alt="js" style="width:20px"> JavaScript</li>
+                            <li class="skills_menu__item"><img src="images/git.png" alt="git" style="width:20px"> Git</li>
+                        </ol>
+                    </nav>
+                </div>
+            </section>
+
+
+            <section class="languages">
+                <div class="language__container">
+                    <h2 class="language__title">Languages</h2>
+                        <ol class="languages__list">
+                            <li class="languages__list__item">Armenian - Native</li>
+                            <li class="languages__list__item">Russian - Native</li>
+                            <li class="languages__list__item">English (C1) - (according to the online test at <a href="https://www.epam.com/" target="_blank" id="epam">EPAM</a>) </li>
+                        </ol>
+                </div>
+            </section>
+
+
+            <section class="hobbies">
+                <div class="hobbies__container">
+                    <h2 class="hobbies__container__title">Hobbies</h2>
+                        <nav>
+                            <ul class="hobbies_list">
+                                
+                                <li class="hobbies_list__item"><img src="images/suitcase.png" alt="travelling" style="width:20px"> Travelling</li>
+                                <li class="hobbies_list__item"><img src="images/chess.png" alt="chess" style="width:20px"> Playing chess</li>
+                                <li class="hobbies_list__item"><img src="images/table-tennis.png" alt="tennis" style="width:20px"> Playing table tennis</li>
+                            </ul>
+                        </nav>
+                </div>
+            </section>
+        </main>
+    </div>
+
+
+
+        <footer class="footer">
+            <a href="https://github.com/Grigoryan01" target="_blank"><img src="images/github.png" alt="github" style="width:30px"></a>
+            <p>2023</p>
+            <a href="https://rs.school/js/" target="_blank">
+                <img src="images/rs_school_js.png" alt="school" style="width:70px">
+            </a>
+        </footer>
+
+</body>
+</html>
