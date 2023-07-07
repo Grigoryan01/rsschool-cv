@@ -1,0 +1,135 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+.content{
+    width: 90vw;
+    padding: 10px;
+    background-color:#3366cc;
+    margin: auto;
+}
+.header{
+    width: 80vw;
+}
+.heading{
+    width: 70vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+}
+.avatar{
+    width: 125px;
+    height: 50%;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    font-weight: 400;
+    font-style: normal;
+    color:#FFFFFF;
+}
+.about__text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:1.25em;
+    font-weight: 400;
+    font-style: normal;
+    color:#FFFFFF;
+    margin-left:10px ;
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    font-weight: 400;
+    font-style: normal;
+    color:#FFFFFF;
+    margin:10px;
+}
+.education{
+    margin: auto;
+}
+
+.list__item{
+    font-size:1.25em;
+    font-family: Arial, Helvetica, sans-serif;;
+    font-weight: 400;
+    font-style: normal;
+    color:#FFFFFF;
+}
+.contacts,
+.education,
+.about{
+    margin: 20px auto;
+}
+.row{
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:15px;
+    padding: 10px;
+    color:#FFFFFF;
+}
+.code__subtitle{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.25em;
+    font-weight: 400;
+    font-style: normal;
+    color:#FFFFFF;
+    margin: 5px;
+}
+.code__text,
+.skills_menu__item,
+.hobbies_list__item,
+.languages__list__item{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+    font-style: normal;
+    color:#FFFFFF;
+    margin: 5px;
+}
+code{
+    font-size: (calc( (100vw - 480px)/(1440 - 480) * (16 - 10) + 10px));
+}
+pre{
+    width: 85vw;
+    background-color:#ffff66;
+    border-radius: 10px;
+    color: black;
+    margin:10px 0;
+}
+.skills__menu,
+.hobbies_list,
+.languages__list{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap:15px;
+}
+.skills_menu__item{
+    list-style-type: none;
+}
+.hobbies_list__item{
+    list-style-type: none;
+}
+#epam{
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.footer{
+    width: 90vw;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color:#ff1a1a;
+    margin: auto;
+
+}
